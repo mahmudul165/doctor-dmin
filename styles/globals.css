@@ -28,3 +28,7 @@ body {
 /* .border-container {
   border: 85px solid white;
 } */
+ul li {
+  font-size: larger;
+  font-weight: bolder;
+}
