@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-amber-200">
-        <section className="   ">
+        <section className="static ">
           {/* <!-- sidebar top edge --> */}
-          <div className="sidebar z-10 w-full h-12  shadow-md  px-1 absolute  ">
+          <div className="w-full  sidebar z-10   h-12  shadow-md  px-1 absolute  ">
             <ul className="relative flex  justify-center align-center">
               <li className="relative mx-2  ">
                 <a
@@ -360,7 +360,7 @@ export default function Home() {
           {/* grid design */}
           <div className="grid grid-cols-12 gap-4">
             {/* sidebar left  */}
-            <div className="col-start-1 col-span-2 sidebar z-0 mt-12   pt-25  w-12 h-full shadow-md   px-1 absolute  ">
+            <div className=" absolute col-start-1 col-span-2 sidebar z-0 mt-12   pt-25  w-12 h-full shadow-md   px-1 absolute  ">
               <ul className="relative    ">
                 <li className="relative">
                   <a
@@ -575,8 +575,8 @@ export default function Home() {
               </ul>
             </div>
             {/*  layout */}
-            <div className=" col-start-2 col-span-10   bg-green-200  z-10 container">
-              <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="w-100 absolute bottom-1 z-10      col-start-2 col-span-10   bg-green-200    container">
+              <div className="absolute  z-20   max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                   <img
                     className="rounded-t-lg"
