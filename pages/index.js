@@ -595,7 +595,7 @@ export default function Home() {
               <div className="relative grid col-span-11 z-30  bg-color  sm:ml-9  md:-ml-14  md:mt-3  md:mb-3 md:mr-3 rounded-lg p-6">
                 <section>
                   <div>
-                    {/* department */}
+                    {/* department  section*/}
                     <div className="absolute top-0 right-0 p-1 ">
                       <label
                         htmlhtmlFor="countries"
